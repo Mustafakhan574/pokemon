@@ -1,0 +1,295 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+background-color: rgba(112, 128, 144, 0.345);
+}
+.logo{
+  height:40px;
+  font-size: 50px;
+  margin-bottom: 20px;
+  display: flex;
+}
+.logo p{
+  font-size: 40px;
+  color: red;
+  font-weight: 900;
+}
+.nav-container{
+  width: 100vw;
+  height: 10vh;
+  background-color: aqua;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ .shoping-bag{
+  font-size: 50px;
+  margin-bottom: 17px;
+  position: relative;
+  
+ }
+ .span{
+  position: absolute;
+  right:1%;
+  font-size: 27px;
+  color: red;
+  font-weight: 900;
+ }
+input{
+  height:40px;
+  width:60vw;
+  border-left: none;
+  border-radius: 2px;
+ }
+.search{
+  font-size: 40px;
+  border: 2px solid black;
+  background-color: white;
+  border-right: none;
+  border-radius: 2px;
+}
+.categories{
+  width:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: rgba(0, 0, 0, 0.433);
+}
+.categories-item{
+  border:1px solid black;
+  height: 100px;
+  width:200px;
+  text-align: center;
+  font-size: 30px;
+  margin: 10px;
+  background-color: aqua;
+  box-shadow: 2px 2px 5px black;
+  transition: background-color 0.3s ease-in-out;
+}
+.categories-item:hover{
+  background-color: white;
+  transform: scale(1.1);
+}
+h1{
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.433);
+  margin-bottom: 0;
+  color: red;
+  font-weight: 900;
+}
+/* card area */
+.card-container{
+  height:450px;
+  
+  width:303px;
+  border: 2px solid black;
+  background-color: white;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 1rem;
+}
+.card-container:hover{
+  border: 2px solid red;
+  box-shadow: 5px 5px 10px 5px;
+}
+.image{
+  height: 300px;
+  width: 270px;
+  border: 2px solid black;
+  box-shadow: 5px 0px 10px;
+}
+.name{
+  font-size: 20px;
+  text-align: center;
+  padding-top: 10px;
+}
+.price{
+  text-align: center;
+  color: green;
+  font-weight: 900;
+  font-size: 20px;
+}
+.veg-non{
+  text-align: center;
+  color: green;
+  font-weight: 900;
+}
+.pri-veg{
+  display: flex;
+  justify-content: space-between;
+}
+.btn{
+  background-color: aqua;
+  padding: 6px 6rem;
+  border-radius: 4px;
+}
+button:hover{
+  background-color: white;
+  transition: background-color 0.4s ease-in-out;
+  transform: scale(1.1);
+}
+.array-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+/* /for slide */
+.slide-container{
+  background-color: white;
+  width:40vw;
+  height:100vh;
+  position:fixed;
+  top:0;
+  right:0;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header span{
+  font-size: 20px;
+  color: red;
+  font-weight: 900;
+  padding: 7px;
+
+}
+.cardy{
+  width:100vw;
+  height:120px;
+  overflow: hidden;
+  box-shadow: 5px 5px 10px 5px;
+  padding: 2px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+}
+/* Add this CSS to your styles */
+.slide-container {
+  transition: transform 0.5s ease;
+  overflow: auto;
+}
+
+.slide-in {
+  transform: translateX(0); /* Move to its original position */
+}
+
+.slide-out {
+  transform: translateX(100%); /* Move off-screen */
+}
+.photo-naam{
+  width:30%;
+  height:100%;
+  background-color:rgb(255, 245, 238);
+  display: flex;
+}
+.photo{
+  width: 50%;
+  height:100%;
+  overflow: hidden; 
+  border-radius: 5px;
+}
+.pic{
+  height:120px;
+  width:auto;
+}
+.naam{
+ font-size: large;
+ padding-left: 8%;
+ text-align: center;
+ margin-top: 5px;
+}
+.btn-container{
+  width:100px;
+  height:50px;
+  margin-bottom: 10px;
+background-color: rgba(0, 0, 0, 0.751);
+border-radius: 8px;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+}
+.btan{
+  width:30%;
+}
+.spam{
+  font-size: 20px;
+  width: 20px;
+  background-color: aqua;
+}
+.cost{
+  padding-left: 3%;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bin{
+  color:red;
+  font-weight: 900;
+  margin-bottom: 110%;
+}
+.spam2{
+  font-weight: 900;
+}
+.products{
+  width:100%;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.cost-container{
+  width:100%;
+  
+  /* border:1px solid black; */
+  border-radius: 9px;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+}
+.subtotal{
+  display: flex;
+  justify-content: space-between;
+  font-weight: 900;
+  font-size: larger;
+}
+.delevery{
+  display: flex;
+  justify-content: space-between;
+  font-weight: 900;
+  font-size: larger;
+}
+.taxes{
+  display: flex;
+  justify-content: space-between;
+  font-weight: 900;
+  font-size: larger;
+}
+.total{
+  display: flex;
+  justify-content: space-between;
+  font-weight: 900;
+  font-size: larger;
+  border-top: 2px solid black;
+}
+@media (max-width: 768px) {
+  .categories-item{
+    width:100px;
+    font-size: 18px;
+  }
+  .nav-container input{
+   max-width:30vw;
+  }
+}
